@@ -1,0 +1,613 @@
+html, body {
+    overflow-x: hidden;
+}
+/* Header */
+.header-image, .background-section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.header-image img, .background-section img{
+    width: 100%;
+    height: 100vh;
+    /* object-position: center; */
+    object-fit: cover;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    opacity: 0.7;
+}
+.navigation {
+    color: white !important;
+}
+.nav-ul {
+    margin-left: 10% !important;
+}
+.logo{
+    font-weight: bold;
+    margin-left: 8%;
+    color: white;
+}
+.custom-text{
+    margin-top: -50px;
+}
+.btn-header{
+    color: white;
+    border-style: none;
+    margin-right: 50px;
+}
+.navbar-toggler{
+    color: white !important;
+    background-color: white !important;
+}
+/* section 1 */
+.section-1{
+    position: relative;
+}
+#carouselSlider{
+    position: absolute;
+    top: 28%;
+    right: 10%;
+    width: 53%;
+    z-index: 10;
+}
+.text-carousel{
+    position: absolute;
+    color: white;
+    top: 22%;
+    left: 9%;
+    z-index: 1;
+}
+.carousel-indicators{
+    bottom: -3rem;
+}
+.carousel-indicators li{
+    background-color: black;
+}
+.carousel-indicators button{
+    border-radius: 50%;
+    width: 10px !important;
+    height: 10px !important;
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+}
+/* section 2 */
+.section-2{
+    position: relative;
+}
+.text-section-2 {
+    position: absolute;
+    top: 15%;
+    right: 20%;
+    color: white;
+    z-index: 1;
+}
+.text-section-2 p {
+    font-size: 2rem;
+}
+.text-section-2 h1 {
+    font-size: 4rem;
+}
+.featured{
+    display: flex;
+    gap: 1rem;
+}
+.featured .line{
+    padding: 0 1rem;
+}
+.featured .line div{
+    width: 2px;
+    height: 100%;
+    background: white;
+    position: relative;
+}
+.game-title{
+    color: rgb(224, 161, 42);
+}
+.game-info p{
+    margin: 0.6rem 0 1.4rem;
+}
+.featured .line div:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    left: -7px;
+}
+.intro{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    width: 23%;
+    z-index: 1;
+    color: white;
+}
+/* section 3 */
+.paragraf-section-3{
+    position: absolute;
+    color: white;
+    margin-top: -43%;
+    margin-left: 40%;
+}
+.heading-1-section-3{
+    position: absolute;
+    color: white;
+    margin-top: -38%;
+    margin-left: 20%;
+}
+table, th, td{
+    border: 1px solid;
+}
+.table{
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 20%;
+    width: 30%;
+}
+.table-h3{
+    color: rgb(224, 161, 42) !important;
+}
+/* section 4 */
+.intro-section-4 {
+    margin-top: -30%;
+    margin-left: 10%;
+    transform: translateY(-50%);
+    background-color: unset;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 25%;
+    color: white;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+.intro-section-4 h3 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    color: #edeceb;
+}
+.intro-section-4 p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: lightgray;
+}
+.intro-section-4 button {
+    padding: 0.5rem 1rem;
+    background-color: #E0A12A;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.testi-1 {
+    position: absolute;
+    margin-top: -30%;
+    right: 10%;
+}
+.testi-2 {
+    position: absolute;
+    margin-top: -20%;
+    right: 20%;
+}
+.testi-3 {
+    position: absolute;
+    margin-top: -10%;
+    right: 10%;
+}
+.testi-1 img, .testi-2 img, .testi-3 img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.testi-1 .text-container, .testi-2 .text-container, .testi-3 .text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+.testi-1 h6, .testi-2 h6 , .testi-3 h6{
+    font-size: 1rem;
+    color: #E0A12A;
+    margin: 0;
+}
+.testi-1 p, .testi-2 p, .testi-3 p {
+    font-size: 0.8rem;
+    margin: 0;
+    color: lightgray;
+}
+.testi-1 .paragraf-testi, .testi-2 .paragraf-testi, .testi-3 .paragraf-testi {
+    font-style: italic;
+    color: white;
+    margin-top: 0.8rem;
+}
+.testi-1 p:last-child, .testi-2 p:last-child, .testi-3 p:last-child {
+    color: lightgray;
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+}
+.twitter-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 16px;
+    height: 16px;
+    background-image: url('twitter-icon-url');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.testi-1, .testi-2, .testi-3 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgb(62, 58, 58);
+    padding: 1rem;
+    border-radius: 10px;
+    width: 28%;
+    height: 18%;
+    color: white;
+}
+/* section 5 */
+.paragraf-1-section-5{
+    position: absolute;
+    color: white;
+    margin-top: -45%;
+    margin-left: 50%;
+    font-size: 1rem;
+}
+.heading-section-5{
+    position: absolute;
+    color: white;
+    margin-top: -43%;
+    margin-left: 50%;
+    font-size: 4rem;
+}
+.paragraf-2-section-5{
+    position: absolute;
+    color: white;
+    width: 35%;
+    margin-top: -38%;
+    margin-left: 50%;
+}
+.button-section-5{
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 50%;
+}
+.button-section-5 input{
+    border-radius: 5px;
+}
+.subscribe{
+    background-color: rgb(224, 161, 42);
+}
+/* footer */
+.footer{
+    color: white;
+    position: absolute;
+    text-align: center;
+    margin-top: -10%;
+    margin-left: 10%;
+}
+.footer p {
+    display: inline-block;
+    margin-right: 40px;
+}
+.icon-sosmed {
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 70%;
+}
+.icon-sosmed img {
+    background-color: white;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    margin-right: 60px;
+    border-radius: 50%;
+}
+.icon-sosmed img[alt="icon-facebook"]:hover {
+    background-color: #00aced;
+}
+.icon-sosmed img[alt="icon-twitter"]:hover {
+    background-color: #00aced;
+}
+.icon-sosmed img[alt="icon-youtube"]:hover {
+    background-color: #ff0000;
+}
+.icon-sosmed img[alt="icon-chat"]:hover {
+    background-color: #c9b92b;
+}
+.copyright{
+    position: absolute;
+    color: white;
+    left: 20%;
+    margin-top: -5%;
+    margin-left: -10%
+}
+.copyright p{
+    display: inline-block;
+    margin-right: 20px;
+}
+.copyright-2{
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 62%;
+    color: white;
+}
+/* Responsive */
+@media only screen and (max-width: 1120px){
+    .paragraf-section-3{
+        margin-top: -55%;
+    }
+    .heading-1-section-3{
+        margin-top: -50%;
+    }
+    .table{
+        margin-top: -40%;
+    }
+    /* section 4 */
+    .intro-section-4{
+        margin-top: -40%;
+    }
+    .testi-1{
+        margin-top: -45%;
+    }
+    .testi-2{
+        margin-top: -30%;
+    }
+    .testi-3{
+        margin-top: -15%;
+    }
+    /* section 5 */
+    .paragraf-1-section-5{
+        margin-top: -50%;
+    }
+    .heading-section-5{
+        margin-top: -47%;
+    }
+    .paragraf-2-section-5{
+        margin-top: -40%;
+    }
+    .button-section-5{
+        margin-top: -30%;
+    }
+    /* footer */
+    .footer{
+        margin-left: 15%;
+    }
+}
+@media only screen and (max-width: 991px){
+    /* section 1 */
+    .text-carousel{
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        font-size: 1rem;
+    }
+    /* section 2 */
+    .intro {
+        font-size: 1rem;
+        margin-left: -30%;
+    }
+    .text-section-2 h1{
+        font-size: 20px;
+    }
+    .featured .line {
+        padding: 0;
+    }
+    .featured .game-title {
+        font-size: 1.4rem;
+    }
+    .featured .game-info p {
+        font-size: 1rem;
+    }
+    .featured .line div {
+        height: 50px;
+        width: 2px;
+        margin-bottom: 10px;
+    }
+    .featured .line div:before {
+        width: 10px;
+        height: 10px;
+        left: -5px;
+    }
+    /* section 3 */
+    .paragraf-section-3{
+        margin-top: -120%;
+    }
+    .heading-1-section-3{
+        margin-top: -110%;
+    }
+    .table{
+        margin-top: -90%;
+        width: 40%;
+    }
+    /* section 4 */
+    .intro-section-4{
+        margin-top: -60%;
+        width: 30%;
+    }
+    .testi-1{
+        margin-top: -53%;
+        margin-left: -20%;
+        width: 40%;
+    }
+    .testi-2{
+        margin-top: -37%;
+        margin-left: -20%;
+        width: 40%;
+    }
+    .testi-3{
+        margin-top: -20%;
+        margin-left: -20%;
+        width: 40%;
+    }
+    /* section 5 */
+    .paragraf-1-section-5{
+        margin-top: -70%;
+    }
+    .heading-section-5{
+        margin-top: -65%;
+    }
+    .paragraf-2-section-5{
+        margin-top: -55%;
+    }
+    .button-section-5{
+        margin-top: -35%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .paragraf-section-3{
+        margin-top: -120%;
+    }
+    .heading-1-section-3{
+        margin-top: -110%;
+    }
+    .table{
+        margin-top: -90%;
+        width: 50%;
+    }
+    /* section 3 */
+    .paragraf-section-3{
+        margin-top: -80%;
+    }
+    .heading-1-section-3{
+        margin-top: -70%;
+    }
+    .table{
+        margin-top: -60%;
+    }
+    /* section 4 */
+    .intro-section-4{
+        margin-top: -75%;
+        width: 50%;
+    }
+    .testi-1{
+        margin-top: -17%;
+        left: 25%;
+        width: 30%;
+    }
+    .testi-2{
+        margin-top: -17%;
+        left: 55%;
+        width: 30%;
+    }
+    .testi-3{
+        margin-top: -17%;
+        left: 85%;
+        width: 30%;
+    }
+    /* section 5 */
+    .paragraf-1-section-5{
+        margin-top: -85%;
+    }
+    .heading-section-5{
+        margin-top: -80%;
+    }
+    .paragraf-2-section-5{
+        margin-top: -70%;
+    }
+    .button-section-5{
+        margin-top: -38%;
+    }
+}
+@media only screen and (max-width: 521px) {
+    /* section 3 */
+    .paragraf-section-3{
+        margin-top: -115%;
+        margin-left: 20%;
+    }
+    .heading-1-section-3{
+        margin-top: -108%;
+        margin-left: 10%;
+    }
+    .table{
+        margin-top: -90%;
+        margin-bottom: auto;
+        width: 70%;
+    }
+    /* section 4 */
+    .intro-section-4{
+        margin-top: -100%;
+        width: 30%;
+    }
+    .testi-1{
+        margin-top: -70%;
+        left: 60%;
+        width: 60%;
+    }
+    .testi-2{
+        margin-top: -50%;
+        left: 60%;
+        width: 60%;
+    }
+    .testi-3{
+        margin-top: -30%;
+        left: 60%;
+        width: 60%;
+    }
+    /* section 5 */
+    .paragraf-1-section-5{
+        margin-top: -110%;
+    }
+    .heading-section-5{
+        margin-top: -103%;
+    }
+    .paragraf-2-section-5{
+        margin-top: -90%;
+    }
+    .button-section-5{
+        margin-top: -45%;
+    }
+}
+@media only screen and (max-width: 415px) {
+    .table{
+        margin-top: -130%;
+    }
+    .paragraf-section-3{
+        margin-top: -160%;
+        margin-left: 10%;
+    }
+    .heading-1-section-3{
+        margin-top: -150%;
+        margin-left: 10%;
+        font-weight: 0.5rem;
+    }
+    /* section 4 */
+    .intro-section-4{
+        margin-top: -150%;
+        width: 90%;
+    }
+    .testi-1{
+        margin-top: -38%;
+        left: 30%;
+        width: 90%;
+    }
+    .testi-2{
+        margin-top: -20%;
+        left: 30%;
+        width: 90%;
+    }
+    .testi-3{
+        margin-top: -10%;
+        left: 30%;
+        width: 90%;
+    }
+    /* section 5 */
+    .paragraf-1-section-5{
+        margin-top: -150%;
+    }
+    .heading-section-5{
+        margin-top: -140%;
+    }
+    .paragraf-2-section-5{
+        margin-top: -120%;
+    }
+    .button-section-5{
+        margin-top: -35%;
+    }
+}
